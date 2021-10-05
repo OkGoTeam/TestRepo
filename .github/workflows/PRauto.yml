@@ -21,6 +21,7 @@ jobs:
       if: github.event.action == 'opened' 
       with:
         project: 'https://github.com/OkGoTeam/TestRepo/projects/1'
+        column_name: 'In progress"
 
     - name: Assign issues and pull requests with `bug` label to project 2
       uses: srggrs/assign-one-project-github-action@1.2.1
